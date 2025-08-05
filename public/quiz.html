@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>What drives Your Creative Future?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+  <div class="quiz-container">
+    <h1>What drives Your Creative Future?</h1>
+    <div id="quiz"></div>
+  </div>
+
+  <script>
+    const questions = [
+      "1. If your life were a book, what would the title of the next chapter be?",
+      "2. What’s one idea you've had that you believe could change the world?",
+      "3. If you had to teach something for the rest of your life, what would it be—and why?",
+      "4. What’s one rule in society you'd rewrite or remove—and what would you replace it with?",
+      "5. What does 'success' look like to you if money didn’t exist?",
+      "6. You can instantly master one skill—what do you choose and what do you create with it?",
+      "7. If creativity had a shape, color, and sound—what would yours be?",
+      "8. What’s a problem people ignore that you wish more people solved creatively?",
+      "9. Imagine a future where your thoughts shape reality—what’s the first thing you’d build?",
+      "10. You meet your 80-year-old self—what advice do they give you today?",
+      "11. What would your ideal world look like in 2050—paint it in one sentence.",
+      "12. If your imagination had no limits, what would you do tomorrow that you’ve never dared to try?",
+      "13. What’s one small act of creativity that made a big difference in your life?",
+      "14. If you could bottle one feeling and share it with the world, what would it be called?",
+      "15. You get to design a symbol that represents your journey—what’s in it and why?"
+    ];
+
+    let currentIndex = 0;
+    const quizDiv = document.getElementById("quiz");
+
+    function showNextQuestion() {
+      if (currentIndex < questions.length) {
+        const questionBlock = document.createElement("div");
+        questionBlock.className = "question-block";
+
+        const questionText = document.createElement("div");
+        questionText.className = "question";
+        questionText.textContent = questions[currentIndex];
+
+        const inputBox = document.createElement("textarea");
+        inputBox.className = "answer";
+        inputBox.placeholder = "Write your answer here...";
+
+        const nextButton = document.createElement("button");
+        nextButton.className = "next-btn";
+        nextButton.textContent = "Next";
+        nextButton.onclick = showNextQuestion;
+
+        questionBlock.appendChild(questionText);
+        questionBlock.appendChild(inputBox);
+        if (currentIndex < questions.length - 1) {
+  questionBlock.appendChild(nextButton);
+} else {
+  const submitButton = document.createElement("button");
+  submitButton.className = "submit-btn";
+  submitButton.textContent = "Submit";
+  submitButton.onclick = function () {
+    alert("🎉 Thank you for submitting your answers!");
+    setTimeout(() => {
+      window.location.href = "certificate.html";
+    }, 1500); //1.5 second delay
+  };
+  questionBlock.appendChild(submitButton);
+}
+
+        quizDiv.appendChild(questionBlock);
+        currentIndex++;
+      }
+    }
+
+    // Start with the first question
+    showNextQuestion();
+  </script>
+
+</body>
+</html>

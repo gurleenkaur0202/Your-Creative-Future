@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificate Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="certificate.css"> <!-- External CSS linked -->
+</head>
+<body>
+
+  <h1>Get Your Certificate</h1>
+  <input type="text" id="nameInput" placeholder="Enter your name" />
+  <br>
+  <button onclick="generateCertificate()">View / Download Your Certificate</button>
+
+  <canvas id="certificateCanvas" width="1000" height="700"></canvas>
+
+  <script>
+    function generateCertificate() {
+      const name = document.getElementById("nameInput").value.trim();
+      if (!name) {
+        alert("Please enter your name.");
+        return;
+      }
+
+      const canvas = document.getElementById("certificateCanvas");
+      const ctx = canvas.getContext("2d");
+
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Background
+      ctx.fillStyle = "#fdd0ee";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      
+
+      // Border
+      ctx.strokeStyle = "#47071c";
+      ctx.lineWidth = 10;
+      ctx.strokeRect(20, 20, canvas.width - 40, canvas.height - 40);
+
+      // Title
+      const topSpacing = 30;
+      ctx.fillStyle = "#47071c";
+      ctx.font = "bold 41px Cursive";
+      ctx.textAlign = "right";
+      ctx.fillText("Presented to ~ ", canvas.width / 2, 150);
+
+      // Name
+      ctx.fillStyle = "#47071c";
+      ctx.font = "bold 41px cursive";
+      ctx.fillText(name, canvas.width / 1.2, 150);
+
+      // Message
+      ctx.fillStyle = "#333";
+      ctx.font = "30px Comic Sans MS";
+      ctx.fillText("For successfully Completing: Your Creative Future Quiz.", canvas.width / 1.1, 240);
+      ctx.fillText("You're the ", canvas.width / 1.8, 310);
+      ctx.font = " bold 70px Comic Sans MS";
+      ctx.fillStyle = "#d33d6a"
+      ctx.fillText("CREATIVE THINKER", canvas.width / 1.2 , 400);
+      ctx.fillStyle = "#333";
+      ctx.font = "30px Comic Sans MS";
+      ctx.fillText("With full of thoughtfull insights.", canvas.width / 1.4, 460);
+
+      // Footer
+      ctx.fillStyle = "#555";
+      ctx.font = "22px Arial";
+      ctx.fillText("Presented by ~ Your Creative Future", canvas.width / 1.5, 600);
+
+      // Show canvas
+      canvas.style.display = "block";
+
+      // Download
+      const image = canvas.toDataURL("image/png");
+      const link = document.createElement("a");
+      link.href = image;
+      link.download = `${name}_certificate.png`;
+      document.body.appendChild(link);
+      link.click();
+    document.body.removeChild(link);
+    }
+  </script>
+
+</body>
+</html>

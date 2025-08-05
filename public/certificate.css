@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  background:url('https://i.ibb.co/0psnPrd1/8747d14f21194c10e9b59c75786b585f.jpg');
+  font-family: cursive;
+  color: #47071c;
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #fdd0ee;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #d33d6a;
+  color: rgb(248, 247, 246);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+canvas {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}

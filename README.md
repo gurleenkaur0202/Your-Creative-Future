@@ -23,6 +23,7 @@ Recommendations for creative, technical, or mixed career paths.
 🏅 Badges & Achievements
 
 Automatically award badges based on quiz performance or personality type.
+
 👤 User Registration
 
 Basic sign-up page to personalize user journeys (front-end only).
@@ -30,6 +31,7 @@ Basic sign-up page to personalize user journeys (front-end only).
 🎨 Clean & Responsive UI
 
 Modern design using CSS & JavaScript.
+
 Mobile-friendly layout.
 
 🎓 Certificate Page

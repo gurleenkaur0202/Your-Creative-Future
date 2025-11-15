@@ -1,12 +1,15 @@
 🌟 Your Creative Future
+
 A personalized career-discovery website that helps users explore their personality traits, receive customized career recommendations, earn badges, and connect with a creative online community.
 
 🚀 About the Project
+
 Your Creative Future is an interactive web platform designed to guide students and young professionals toward discovering their interests, strengths, and ideal career paths.
 The platform uses quiz-based personality analysis to generate personalized career reports, award creative badges, and foster a community-driven approach to self-discovery.
 This project reflects modern web-development practices and aims to provide a smooth, engaging, and aesthetically appealing user experience.
 
 ✨ Key Features
+
 🔍 Personality Quiz
 Engaging MCQs that analyze users’ traits and map them to personality categories.
 Dynamic scoring and real-time feedback.
@@ -24,6 +27,7 @@ Mobile-friendly layout.
 Dedicated certificate page styled to display results and achievements.
 
 🛠 Tech Stack
+
 Layer	Technology
 Frontend	HTML5, CSS3, JavaScript
 Styling	Vanilla CSS (style.css, quiz.css, certificate.css)
@@ -32,6 +36,7 @@ Version Control	Git & GitHub
 Development Environment	VS Code
 
 📁 Project Structure
+
 YOUR CREATIVE FUTURE/
 │
 └── public/
@@ -46,6 +51,7 @@ YOUR CREATIVE FUTURE/
     └── certificate.css        # Certificate page styling
 
 ⚙️ Installation Guide
+
 Follow these steps to run the project locally:
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/your-creative-future.git
@@ -59,6 +65,7 @@ Install the Live Server extension
 Right-click index.html → Open with Live Server
 
 🔮 Future Improvements
+
 🔐 Login system connected to a backend (Node.js / Firebase / MongoDB)
 📊 Advanced AI-based career recommendations
 📝 User dashboard to view badges, certificates, and past quiz attempts
@@ -68,6 +75,7 @@ Right-click index.html → Open with Live Server
 🧪 Unit tests for reliability
 
 🤝 Contributing
+
 Contributions are welcome!
 If you’d like to contribute:
 Fork the repository
@@ -78,10 +86,12 @@ Open a Pull Request
 Please follow best practices and write clean, well-commented code.
 
 📜 License
+
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it with attribution.
 
 👩‍💻 Author
+
 Gurleen Kaur
 B.Tech (KSE), IAm Gurinchwad University
 • Web Developer

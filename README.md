@@ -11,19 +11,29 @@ This project reflects modern web-development practices and aims to provide a smo
 ✨ Key Features
 
 🔍 Personality Quiz
+
 Engaging MCQs that analyze users’ traits and map them to personality categories.
 Dynamic scoring and real-time feedback.
+
 📄 Personalized Career Reports
+
 AI-inspired insights based on users’ quiz responses.
 Recommendations for creative, technical, or mixed career paths.
+
 🏅 Badges & Achievements
+
 Automatically award badges based on quiz performance or personality type.
 👤 User Registration
+
 Basic sign-up page to personalize user journeys (front-end only).
+
 🎨 Clean & Responsive UI
+
 Modern design using CSS & JavaScript.
 Mobile-friendly layout.
+
 🎓 Certificate Page
+
 Dedicated certificate page styled to display results and achievements.
 
 🛠 Tech Stack

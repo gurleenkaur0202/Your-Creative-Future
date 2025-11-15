@@ -39,10 +39,15 @@ Dedicated certificate page styled to display results and achievements.
 🛠 Tech Stack
 
 Layer	Technology
+
 Frontend	HTML5, CSS3, JavaScript
+
 Styling	Vanilla CSS (style.css, quiz.css, certificate.css)
+
 Scripts	JavaScript (script.js)
+
 Version Control	Git & GitHub
+
 Development Environment	VS Code
 
 📁 Project Structure
@@ -62,48 +67,77 @@ YOUR CREATIVE FUTURE/
 
 ⚙️ Installation Guide
 
+
 Follow these steps to run the project locally:
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/your-username/your-creative-future.git
+
 2️⃣ Navigate to the Project
+
 cd your-creative-future/public
+
 3️⃣ Run the Website
+
 Since it’s a front-end project, you can open it directly:
+
 Option A: Open index.html in your browser
+
 Option B: Use VS Code Live Server
+
 Install the Live Server extension
+
 Right-click index.html → Open with Live Server
 
 🔮 Future Improvements
 
 🔐 Login system connected to a backend (Node.js / Firebase / MongoDB)
+
 📊 Advanced AI-based career recommendations
+
 📝 User dashboard to view badges, certificates, and past quiz attempts
+
 🏆 Gamification system with more badges and levels
+
 🌐 Community page for discussions and shared creative ideas
+
 📱 Progressive Web App (PWA) support
+
 🧪 Unit tests for reliability
 
 🤝 Contributing
 
 Contributions are welcome!
+
 If you’d like to contribute:
+
 Fork the repository
+
 Create a new branch (feature/new-feature)
+
 Commit your changes
+
 Push the branch
+
 Open a Pull Request
+
 Please follow best practices and write clean, well-commented code.
 
 📜 License
 
 This project is licensed under the MIT License.
+
 You are free to use, modify, and distribute it with attribution.
 
 👩‍💻 Author
 
 Gurleen Kaur
+
 B.Tech (KSE), IAm Gurinchwad University
+
 • Web Developer
+
 • Creative Website Designer
+
 • Passionate about EdTech, AI, and UX Design

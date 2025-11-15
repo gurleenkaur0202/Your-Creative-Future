@@ -53,16 +53,26 @@ Development Environment	VS Code
 📁 Project Structure
 
 YOUR CREATIVE FUTURE/
+
 │
+
 └── public/
+
     ├── index.html             # Homepage
+    
     ├── register.html          # User registration page
+    
     ├── quiz.html              # Personality quiz page
+    
     ├── certificate.html       # Certificate/Results page
+    
     ├── script.js              # Quiz logic + interactions
+    
     │
     ├── style.css              # General stylesheet
+    
     ├── quiz.css               # Quiz-specific styling
+    
     └── certificate.css        # Certificate page styling
 
 ⚙️ Installation Guide

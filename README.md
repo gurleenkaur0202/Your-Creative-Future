@@ -82,7 +82,7 @@ Follow these steps to run the project locally:
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/your-creative-future.git
+git clone https://github.com/gurleenkaur0202/your-creative-future.git
 
 2️⃣ Navigate to the Project
 
@@ -144,7 +144,9 @@ You are free to use, modify, and distribute it with attribution.
 
 Gurleen Kaur
 
-B.Tech (KSE), IAm Gurinchwad University
+kaurgurleen0202@gmail.com  
+
+B.Tech CSE, K.R Mangalam University
 
 • Web Developer
 
